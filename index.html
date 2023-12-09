@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <!-- Metadatos -->
+    <meta charset="utf-8">
+    <meta name="author" content="Elana Benitez">
+    <meta name="description" content="La música en el mundo">
+    <meta name="keywords" content="HTML, CSS, JavaScript, React">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Titulo -->
+    <title>Elana Benitez| Bienvenido al mundo de la música</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="imagenes/l2.jpg">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <!-- Iconos de Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <!-- CSS -->
+    <link href="style.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Rubik+Dirt&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <!-- Barra de navegacion -->
+    <nav class="navbar navbar-expand-md navbar-light">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar-toggler">
+          <a class="navbar-brand" href="#">
+            <img src="C:\Users\LABII-PC13\Desktop\clonacion de google Elana\imagenes\imagen tay.jpg" width="50" alt="Logo de la página web">
+          </a>
+          <ul class="navbar-nav d-flex justify-content-center align-items-center">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#sobre-mi">Música</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#proyectos">Géneros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#testimonios">Más sobre música</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contacto">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Seccion Hero -->
+    <section class="hero align-items-stretch">
+      <div class="hero-principal d-flex flex-column justify-content-center align-items-center">
+        <img class="hero-imagen-desarrollador rounded-circle" src="c:\Users\LABII-PC13\Downloads\Mi foto.jpeg" alt="Foto de Elana">
+        <h1>Hola, soy Elana Benitez</h1>
+       <h2>Soy amante de la música de todos los géneros</h2> 
+        <!--Animación con JavaScript-->
+        <h2 class="text-primary mb-4" id="typewriter"></h2>
+      </div>
+      <div class="hero-inferior">
+        <img class="hero-inferior-imagen img-fluid" src="C:\Users\LABII-PC13\Desktop\clonacion de google Elana\imagenes\musi.jpg" alt="Las mejores canciones">
+      </div>
+    </section>
+
+    <!-- Sobre mi -->
+    <section id="sobre-mi" class="sobre-mi seccion-oscura">
+      <div class="contenedor">
+        <h2 class="seccion-titulo">La música</h2>
+        <p class="seccion-texto">La música es muy importante en la vida de muchos, es por eso, que aquí mostraremos algunos géneros que a muchos les encantan!!</em></p>
+      </div>
+    </section>
+    <section id="videouno" class="videoprincipal">
+      <video src="C:\Users\LABII-PC13\Desktop\clonacion de google Elana\imagenes\video Tay.mp4" width="250" height="300" text-aligen="" autoplay controls>Mi video</video>
+    </section>
+
+    <!-- Experiencia -->
+    <section class="experiencia seccion-clara">
+      <div class="container text-center">
+        <div class="row">
+          <!-- Desarrollo Web -->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-laptop"></i>
+            <p class="experiencia-titulo">Pop inglés</p>
+            <p>El pop en inglés se ha vuelto muy famoso gracias a sus melodías únicas, aquí te mostraremos algunos artistas que te pueden gustar:</p>
+            <p>Taylor Swift, Katy Perry, Olivia Rodrigo, One Direction, Sabrina Carpenter, etc..
+            </p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-primary">Contagiosa</span>
+              <span class="badge text-bg-primary">Inspiradora</span>
+              <span class="badge text-bg-primary">Entretenida</span>
+              <span class="badge text-bg-primary">Bonita</span>
+            </div>
+          </div>
+          <!-- Articulos -->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-laptop"></i>
+            <p class="experiencia-titulo">Pop español</p>
+            <p>Es un género que está ,más popularizado en latinoamérica, artistas:</p>
+            <p>Morat, Tini, Aitana, Sebastian Yatra etc...</p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-primary">Para bailar</span>
+              <span class="badge text-bg-primary">Optimistas</span>
+              <span class="badge text-bg-primary">Motivadora</span>
+            </div>
+          </div>
+          <!-- Estudiante -->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-laptop"></i>
+            <p class="experiencia-titulo">¿Es bueno escuchar música?</p>
+            <p>Esto puede depender mucho de la persona pero, está comprobado que escuchar música puede mejorar nuestro estado de ánimo.</p>
+
+            <div class="badges-contenedor">
+              <span class="badge text-bg-primary">Paz</span>
+              <span class="badge text-bg-primary">Felicidad</span>
+              <span class="badge text-bg-primary">Empatia</span>
+              <span class="badge text-bg-primary">Amor</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Proyectos -->
+    <section id="proyectos" class="proyectos-recientes seccion-clara d-flex flex-column">
+      <h2 class="seccion-titulo texto-negro">¿Qué aplicación es la mejor para escuchar música?</h2>
+      <h3 class="seccion-descripcion">Aquí dejo las mejores...</h3>
+      <!-- Galeria de Proyectos -->
+      <div class="container text-center proyectos-contenedor">
+        <div class="row">
+          <!-- Proyecto 1 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="C:\Users\LABII-PC13\Desktop\clonacion de google Elana\imagenes\spoti.png" alt="Spotify">
+              <p>Para mí, la mejor aplicación para reproducir música es Spotify, aunque claro, tienes que pagar para 
+                tener más beneficios, el precio que piden es razonable y tiene buen servicio.</p>
+              <div class="overlay">
+                <p>Las mejores aplicaciones...</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="#" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 2 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="C:\Users\LABII-PC13\Desktop\clonacion de google Elana\imagenes\esound imagen.jpg" alt="eSound">
+                            <p>Probablemente todas las aplicaciones tienen la misma función, pero hay algunas
+                              que nos pueden dar más beneficios que otras. </p>
+              <div class="overlay">
+                <p>¿Comprar?</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-music"></i>
+                  </a>
+                  <a href="#/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 3 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="C:\Users\LABII-PC13\Desktop\clonacion de google Elana\imagenes\trebel.png" alt="Trebel">
+              <div class="overlay">
+                <p>Descargar</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="#/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <a href="https://javiergaraymusica.com/10-mejores-cantantes-pop/" target="_blank" rel="noopener noreferrer">
+            <button type="button" class="btn btn-info">
+              Ver más puntos de vista...
+              <i class="bi bi-arrow-right-circle-fill"></i>
+            </button>
+          </a>
+    </section>
+    
+
+    <!-- Articulos -->
+    <section class="articulos justify-content-start">
+      <h2 class="seccion-titulo texto-negro">Artículos</h2>
+      <div class="card">
+        <div class="card-header">
+          Más recientes
+        </div>
+        <ul class="list-group list-group-flush">
+          <a href="https://www.grammy.com/news/2023-grammy-nominations-complete-winners-nominees-list" target="_blank" rel="noopener noreferrer">
+            <li class="list-group-item">
+              Los mejores artistas del año
+            </li>
+          </a>
+          <a href="https://open.spotify.com/playlist/37i9dQZEVXbMDoHDwVN2tF" target="_blank" rel="noopener noreferrer">
+            <li class="list-group-item">
+              Top global spotify
+            </li>
+          </a>
+          <a href="https://www.youtube.com/playlist?list=PLuUrokoVSxldGEgnuJvdSigXxrkBKkCq0" target="_blank" rel="noopener noreferrer">
+            <li class="list-group-item">
+              Entérate de las mejores canciones del momento
+            </li>
+          </a>
+          <a href="https://www.mtv.com/vma" target="_blank" rel="noopener noreferrer">
+            <li class="list-group-item">
+              Votaciones para mejores cantantes
+            </li>
+          </a>
+          <a href="https://music.apple.com/us/playlist/top-100-global/pl.d25f5d1181894928af76c85c967f8f31" target="_blank" rel="noopener noreferrer">
+            <li class="list-group-item">
+              Playlist Apple music
+            </li>
+          </a>
+        </ul>
+      </div>
+      <a href="#" target="_blank" rel="noopener noreferrer">
+        <button type="button" class="btn btn-info">
+          Ver más artículos
+          <i class="bi bi-arrow-right-circle-fill"></i>
+        </button>
+      </a>
+    </section>
+
+    <!-- Testimonios -->
+    <section id="testimonios" class="testimonios seccion-clara">
+      <h2 class="seccion-titulo">Mis artistas favoritos</h2>
+      <h3 class="seccion-descripcion">Aquí te mostraré mis artistas favoritos</h3>
+      
+      <!-- Carrusel -->
+      <div id="testimonios-carrusel" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="container">
+              <img class="testimonio-imagen rounded-circle" src="C:\Users\LABII-PC13\Desktop\clonacion de google Elana\imagenes\tay.jpg" alt="primero">
+              <p class="testimonio-texto">Taylor Swift</p>
+              <div class="testimonio-info">
+                <p class="cliente">Pop</p>
+                <p class="cargo">33 años</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <img class="testimonio-imagen rounded-circle" src="C:\Users\LABII-PC13\Desktop\clonacion de google Elana\imagenes\descarga.jpg" alt="segundo">
+              <p class="testimonio-texto">One direction</p>
+              <div class="testimonio-info">
+                <p class="cliente">Pop</p>
+                <p class="cargo">Cantantes británicos</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <img class="testimonio-imagen rounded-circle" src="C:\Users\LABII-PC13\Desktop\clonacion de google Elana\imagenes\morat.jpg" alt="tercero">
+              <p class="testimonio-texto">Morat </p>
+              <div class="testimonio-info">
+                <p class="cliente">Pop español</p>
+                <p class="cargo">Cantantes Colombianos</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Siguiente</span>
+        </button>
+      </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contacto" class="contacto seccion-oscura">
+      <div class="container">
+        <div class="container text-center rectangulo d-flex justify-content-evenly">
+          <div class="row">
+            <div class="col-12 col-md-4 seccion-titulo">
+              ¡Hablemos!
+            </div>
+            <div class="col-12 col-md-4 descripcion">
+             Contactame y podemos hablar sobre tus recomendaciones de música.
+            </div>
+            <div class="col-12 col-md-4">
+              <a href="benitezsanchezelanasurisadday@gmail.com">
+                <button type="button">  
+                  Contacto
+                  <i class="bi bi-envelope-check-fill"></i>
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Pie de pagina (footer) -->
+    <footer class="seccion-oscura d-flex flex-column align-items-center justify-content-center"> 
+      <img class="footer-logo" src="C:\Users\LABII-PC13\Desktop\clonacion de google Elana\imagenes\imagen tay.jpg" alt="Logo del portafolio">
+      <p class="footer-texto text-center">La música me inspira.<br>Inspiremos juntos.</p>
+      <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
+        <a href="https://twitter.com/Elana_benitezz" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-twitter"></i>
+        </a>
+        <a href="https://github.com/ElanaBenitez" target="_blank" rel="noopener noreferrer">
+          <i class="bi-github"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/elana-surisadday-benitez-s%C3%A1nchez-6765062a0/" target="_blank" rel="noopener noreferrer">
+          <i class="bi-linkedin"></i>
+        </a>
+        <a href="https://www.instagram.com/elana_benitezz/" target="_blank" rel="noopener noreferrer">
+          <i class="bi-instagram"></i>
+        </a>
+        <a href="benitezsanchezelanasurisadday@gmail.com" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-envelope"></i>
+        </a>
+      </div>
+      <div class="derechos-de-autor"> Adaptado por Elana Benitez </div>
+      
+
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
+        <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+        <script src="main.js"></script>
+
+  </body>
+</html>
